@@ -1,0 +1,12 @@
+api:
+  adminAccount:
+    passwordHash: "$2y$10$cc7qinbLJnbgFPkqIKuwuutNZdSpftVIBWDoGb2u8WKjWrjWcNo9O"
+    tokenSigningKey: "wwV0JKQAHTbtCjltF1gv82RW0y8J2KiY"
+    tokenTTL: 24h
+  oidc:
+    enabled: false
+controller:
+  logLevel: INFO
+  argocd:
+    integrationEnabled: true
+    namespace: argocd
